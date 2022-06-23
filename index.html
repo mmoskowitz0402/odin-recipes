@@ -4,15 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
     <title>Odin Recipes</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <img src="./img/chef.png">
-    <ul>
-        <li><a href="./recipes/tuna-potato.html">The Tuna Potato</a></li>
-        <li><a href="./recipes/pineapple-pizza.html">The Pineapple Pizza</a></li>
-        <li><a href="./recipes/saradomin-brew.html">The Saradomin Brew</a></li>
-    </ul>
+    <div class="hdr-and-chef">
+        <div class="hdr">
+            <h1 class="hdr">Adventurer's Crappy Cookbook</h1>    
+        </div>
+        <img src="./img/chef.png" class="chef">
+    </div>
+    <br>
+    <div class="grid-container">
+        <div class="grid-item">    
+            <a href="./recipes/tuna-potato.html" class="button">The Tuna Potato</a>
+        </div>
+        <div class="grid-item">    
+            <a href="./recipes/pineapple-pizza.html" class="button">The Pineapple Pizza</a>
+        </div>
+        <div class="grid-item">    
+            <a href="./recipes/saradomin-brew.html" class="button">The Saradomin Brew</a>
+        </div>
+    </div>
 </body>
 </html>

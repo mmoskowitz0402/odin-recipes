@@ -1,0 +1,47 @@
+.hdr {
+    text-align: center;
+    font-size: 38px;
+    color: white;
+    -webkit-text-stroke: 1px #000000;
+	text-shadow: -1px 1px 2px #000000,
+				  1px 1px 2px #000000,
+				  1px -1px 0 #000000,
+				  -1px -1px 0 #000000;
+}
+
+.chef {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    background: #4E9CAF;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+}
+
+.grid-container {
+    display: flex;
+    text-align: center;
+}
+
+.grid-container > * {
+    flex-basis: 100%;
+}
+
+.button {
+    width: 150px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+* {
+    background-color: #1c1640;
+    font-family: Arial;
+}
